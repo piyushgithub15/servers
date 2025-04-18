@@ -21,5 +21,4 @@ RUN npm ci --ignore-scripts --omit-dev
 
 EXPOSE 3001
 
-
-CMD ["node", "dist/index.js"]
+CMD ["node", "dist/sse.js"]
